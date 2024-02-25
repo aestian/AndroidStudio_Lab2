@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Sharipov Aidar\n\n
+University: International Information Technologies Univerity (IITU)\n\n
+Course: 3rd year\n\n
+Specialty: Computer security\n\n
+Brief information:\n\n
+Aidar Sharipov is a third-year student at the IITU, specializing in the field of computer security.\n
+Has in-depth knowledge of information security, cyber defense, cryptography, network security and other related areas.\n
+Shows activity and initiative in studies, takes part in student projects, competitions and events aimed at improving professional skills and experience.\n
+Possesses skills in analyzing vulnerabilities, developing information security strategies, and the ability to respond to cyber attacks and information security incidents.\n
+Proficient in programming in high-level languages such as Python, C++, Java, which allows him to effectively solve problems in the field of cybersecurity.\n
+Shows interest in current trends and the latest technologies in the field of computer security, strives for continuous professional development and improvement of skills."
+            android:textSize="20dp" />
+
+    </ScrollView>
+</LinearLayout>
